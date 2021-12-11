@@ -1,0 +1,189 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/* banner */
+.banner
+{
+    margin-top: 10px;
+    width: 100%;
+}
+.banner-m
+{
+    width: 900px;
+    margin: 0 auto;
+}
+.banner-img
+{
+    display: none;
+    width: 100%;
+}
+.visible-b
+{
+    display: block;
+}
+.banner-img img
+{
+    width: 100%;
+    height: 500px;
+    animation: 1s oo;
+    position: relative;
+    z-index: -1;
+}
+@keyframes oo 
+{
+    from{opacity: 0;}
+    to{opacity: 1;}    
+}
+.banner-btn
+{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-btn button
+{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+}
+.t-active
+{
+    color: rgb(113, 252, 48);
+}
+.t-inactive
+{
+    color: rgb(210, 255, 158);
+}
+
+/* products */
+.sample_container
+{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.sample_container p
+{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Oswald';
+    color: rgb(41, 41, 41);
+}
+.sample_container p.subtitle
+{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Oswald';
+    color: rgb(99, 99, 99);
+    margin-bottom: 30px;
+}
+
+.sample-col 
+{
+    float: left;
+    width: 25%;
+}
+.sample-row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 30px;
+}
+.prod
+{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+.prod:hover
+{
+    cursor: pointer;
+}
+.prod-img:hover button.view{display: block;}
+.prod-img
+{
+    width: 100%;
+    position: relative;
+}
+.prod img
+{
+    width: 70%;
+}
+.prod button.view
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 3px 5px;
+    display: none;
+    border-radius: 50%;
+}
+.prod button.view:hover
+{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+.prod-info
+{
+    font-family: 'Oswald';
+    width: 100%;
+    box-sizing: border-box;
+}
+.prod-info span
+{
+    width: 100%;
+    display: block;
+}
+.prod-info button
+{
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+    width: 90%;
+    padding: 6px 8px;
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.prod-info button:hover
+{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+footer
+{
+    width: 100%;
+}
+.col 
+{
+    float: left;
+    width: 50%;
+    background-color: green;
+    color: white;
+    font-family: 'Oswald';
+    text-align: center;
+}
+.sample-row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}

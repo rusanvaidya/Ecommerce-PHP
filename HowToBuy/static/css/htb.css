@@ -1,0 +1,21 @@
+.containee
+{
+    width: 900px;
+    margin: 0 auto;
+}
+.heading
+{
+    width: 100%;
+    font-size: 80px;
+    font-family: 'Oswald';
+}
+.steps
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.steps ul
+{
+    list-style: decimal;
+    font-family: 'Oswald';
+}
