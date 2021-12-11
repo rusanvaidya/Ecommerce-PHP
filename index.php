@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <body>
         <?php
-            include 'db_conection.php'; 
+//             include 'db_conection.php'; 
             include 'menu.php';
         ?>
         <div class="banner">
