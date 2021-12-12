@@ -12,7 +12,7 @@
     
     <body>
         <?php
-            include 'db_conection.php'; 
+//             include 'db_conection.php'; 
             include 'menu.php';
         ?>
         <div class="banner">
