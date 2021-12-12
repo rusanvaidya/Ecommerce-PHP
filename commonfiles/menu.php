@@ -75,7 +75,7 @@
     <div class="logo-m-s-cart">
         <div class="logo-m">
             <div class="logo" id="home-logo">
-                <img src="media/logo.png">
+                <img src="../media/logo.png">
             </div>
             <div class="m">
                 <div class="m-sub">
@@ -112,7 +112,7 @@
                             <div class="shopping-list" id="shop-list">
                                 <table>
                                     <tr>
-                                        <td><img src="media/product/nescafe.jpg"></td>
+                                        <td><img src="../media/product/nescafe.jpg"></td>
                                         <td>Nescafe Coffee</td>
                                         <td>Rs. 125/-</td>
                                         <td><button>&times;</button></td>
@@ -146,5 +146,5 @@
     </div>
 </div>
 
-<script src="static/js/buttons.js"></script>
+<script src="../static/js/buttons.js"></script>
     

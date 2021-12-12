@@ -28,29 +28,6 @@ close_signup.onclick = function()
     document.getElementById('signup-back').style.display = 'none';
 }
 
-// new seller
-const bs = document.getElementById('bs');
-bs.onclick = function()
-{
-    document.getElementById('bs-back').style.display='block';
-}
-const signup_bs = document.getElementById('bs-sign');
-signup_bs.onclick = function()
-{
-    document.getElementById('bs-back').style.display='none';
-    document.getElementById('signup-bs-back').style.display='block';
-}
-const close_login_bs = document.getElementById('close-login-bs');
-const close_signup_bs = document.getElementById('close-signup-bs');
-close_login_bs.onclick = function()
-{
-    document.getElementById('bs-back').style.display = 'none';
-}
-close_signup_bs.onclick = function()
-{
-    document.getElementById('signup-bs-back').style.display = 'none';
-}
-
 // menu
 const category = document.getElementById('menu-cat');
 const cat_list = document.getElementById('category');
@@ -84,42 +61,47 @@ cart_icon.onclick = function()
 const htb = document.getElementById('htb');
 htb.onclick = function()
 {
-    window.open('HowToBuy', '_self')
+    window.open('/HowToBuy', '_self')
+}
+const bs = document.getElementById('bs');
+bs.onclick = function()
+{
+    window.open('/BecomeSeller', '_self')
 }
 const oa = document.getElementById('oa');
 oa.onclick = function()
 {
-    window.open('OffersAvailable', '_self')
+    window.open('/OffersAvailable', '_self')
 }
 const na = document.getElementById('na');
 na.onclick = function()
 {
-    window.open('NewArrivals', '_self')
+    window.open('/NewArrivals', '_self')
 }
 const cs = document.getElementById('cs');
 cs.onclick = function()
 {
-    window.open('CustomerSupport', '_self')
+    window.open('/CustomerSupport', '_self')
 }
 
 // footer menu
 const about = document.getElementById('about');
 about.onclick = function()
 {
-    window.open('About', '_self')
+    window.open('/About', '_self')
 }
 const tc = document.getElementById('tc');
 tc.onclick = function()
 {
-    window.open('TermsCondition', '_self')
+    window.open('/TermsCondition', '_self')
 }
 const policy = document.getElementById('policy');
 policy.onclick = function()
 {
-    window.open('policy', '_self')
+    window.open('/policy', '_self')
 }
 const faqs = document.getElementById('faqs');
 faqs.onclick = function()
 {
-    window.open('FAQs', '_self')
+    window.open('/FAQs', '_self')
 }

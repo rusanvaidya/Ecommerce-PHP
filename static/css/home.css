@@ -115,29 +115,30 @@
     width: 100%;
     position: relative;
 }
-.prod img
+button.view
 {
-    width: 70%;
-}
-.prod button.view
-{
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    font-size: 20px;
-    border: 1px solid black;
-    padding: 3px 5px;
-    display: none;
+    padding: 4px 6px;
+    border: none;
     border-radius: 50%;
+    font-size: 20px;
 }
-.prod button.view:hover
+button.view:hover
 {
-    cursor: pointer;
-    background-color: green;
+    background-color:green;
     color: white;
+    cursor: pointer;
 }
+.prod img
+{
+    width: 70%;
+}
+
 .prod-info
 {
     font-family: 'Oswald';
@@ -171,15 +172,52 @@
 footer
 {
     width: 100%;
+    margin-top: 20px;
 }
 .col 
 {
     float: left;
+    height: 200px;
     width: 50%;
     background-color: green;
     color: white;
     font-family: 'Oswald';
+    position: relative;
     text-align: center;
+}
+.col .fotmenu
+{
+    width: 200px;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.col .fotmenu a.name
+{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.col .fotmenu a
+{
+    color: white;
+    text-decoration: none;
+}
+.col .fotmenu a:hover
+{
+    font-weight: bold;
+}
+
+.col ul
+{
+    list-style: none;
+}
+.col ul li
+{
+    height: 30px;
 }
 .sample-row:after 
 {
