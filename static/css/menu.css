@@ -282,6 +282,7 @@ button.login:hover
     background-color: white;
     border: 2px solid black;
     display: none;
+    right: 20px;
 }
 .shopping-list table
 {
@@ -327,6 +328,7 @@ button.login:hover
 .cart .cart-sub i
 {
     font-size: 25px;
+    cursor: pointer;
 }
 .cart .cart-sub span
 {
@@ -372,4 +374,58 @@ button.login:hover
 {
     cursor: pointer;
     font-weight: bold;
+}
+
+@media only screen and (max-width:600px)
+{
+    div.info-to-r, div.top-info-bar, .menu-sub
+    {
+        display: none;
+    }
+    .menu
+    {
+        position: relative;
+        height: 150px;
+    }
+    .logo-m-s-cart
+    {
+        width: 100%;
+    }
+    .logo-m, .s-cart
+    {
+        width: 100%;
+        display: block;
+    }
+    .logo-m .logo
+    {
+        width: 30%;
+    }
+    .logo-m .m
+    {
+        width: 70%;
+    }
+    .logo-m .logo, .logo-m .m
+    {
+        height: 70px;
+    }
+    .logo-m-s-cart .logo img
+    {
+        width: 70px;
+    }
+    .logo-m .m .m-sub button
+    {   
+        width: 80%;
+    }
+    .category
+    {
+        width: 200px;
+    }
+    .s, .cart
+    {
+        height: 70px;
+    }
+    .s input[type='search']
+    {
+        margin-left: 10px;
+    }
 }

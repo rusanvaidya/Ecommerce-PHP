@@ -225,3 +225,20 @@ footer
     display: table;
     clear: both;
 }
+
+@media only screen and (max-width:600px)
+{
+    .banner-m
+    {
+        width: 100%;
+    }
+    .banner-img img
+    {
+        height: 200px;
+    }
+
+    .sample_container
+    {
+        width: 100%;
+    }
+}
